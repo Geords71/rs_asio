@@ -1,7 +1,7 @@
 # RS ASIO
 
 This project aims to add ASIO support to `Rocksmith 2014 Edition - Remastered` in order to avoid issues with some WASAPI drivers.
-It patches game code at runtime to allow intervening in the process of WASAPI device enumeration so that we can inject our own fake WASAPI devices which internally use ASIO audio API.
+It patches game code at runtime to allow intervening in the process of WASAPI device enumeration so that we can inject our own fake WASAPI devices - which internally use ASIO audio API.
 
 ## Other Languages
 [简体中文](README_CN.md)
